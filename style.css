@@ -24,7 +24,7 @@ main{
     grid-template-columns: 1fr;
     gap: 1rem;
 }
-#galerie {
+.galerie {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: min-content;
@@ -32,23 +32,23 @@ main{
     padding: 0.5rem 1rem 1rem 0.5rem;
     margin-bottom: 2rem;
 }
-#galerie figure {
+.galerie figure {
     border: solid 2px brown;
     border-radius: 10%;
 
 }
-#galerie figure:hover {
+.galerie figure:hover {
     background-color: #fb9600;
 }
 
 
-#galerie img {
+.galerie img {
     width: 80%;
     display: flex;
     justify-self: center;
     align-self: center;;
 }
-#galerie h2 {
+.galerie h2 {
     display: flex;
     justify-self: center;
     align-self: center;
